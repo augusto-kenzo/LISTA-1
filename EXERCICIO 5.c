@@ -10,9 +10,9 @@ int main() {
 
     P = 2*a + 3*b + 4*c + 5*d + 6*e + 7*f + 8*g + 9*h;
 
-    R = P % 11;//calcula o resto de P
+    R = P % 11;
 
-    Q = 11 - R;//11 - o resto da o digito verificador
+    Q = 11 - R;
 
     if (Q == 10) {
         printf("O digito verificador e X\n");
